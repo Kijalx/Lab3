@@ -1,8 +1,8 @@
 <p>For user (Get)</p>
-<p>http://localhost:8080/registerUser/John/john@gmail.com</p>
+<p><b>http://localhost:8080/registerUser/John/john@gmail.com</b></p>
 
 <p>For user with Request Body (Post)</p>
-<p>http://localhost:8080/registerUserBody/</p>
+<p><b>http://localhost:8080/registerUserBody/</b></p>
 <p>
 json: 
 {
@@ -12,9 +12,10 @@ json:
 </p>
 <p>For Library</p>
 <p>To add a book (Post)</p>
-<p>http://localhost:8080/addbook</p>
+<p><b>http://localhost:8080/addbook</b></p>
 <p>
-json:
+###JSON:
+'''cmd
 {
   "title": "Sample Book",
   "author": "John Doe",
@@ -23,4 +24,4 @@ json:
 }
 </p>
 <p>Retreive a list of books (Get)</p>
-<p>http://localhost:8080/getbooks</p>
+<p><b>http://localhost:8080/getbooks</b></p>
