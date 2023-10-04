@@ -1,10 +1,10 @@
-<p>For user (Get)</p>
+<p><b>For user (Get)</b></p>
 
 ```
 http://localhost:8080/registerUser/John/john@gmail.com
 ```
 
-<p>For user with Request Body (Post)</p>
+<p><b>For user with Request Body (Post)</b></p>
 
 ```
 http://localhost:8080/registerUserBody/
@@ -17,8 +17,8 @@ JSON:
  "email": "john@gmail.com"
 }
 ```
-<p>For Library</p>
-<p>To add a book (Post)</p>
+<p><b>For Library</b></p>
+<p><b>To add a book (Post)</b></p>
 
 ``` 
 http://localhost:8080/addbook
@@ -34,7 +34,7 @@ JSON:
 }
 ```
 
-<p>Retreive a list of books (Get)</p>
+<p><b>Retreive a list of books (Get)</b></p>
 
 ```
 http://localhost:8080/getbooks
