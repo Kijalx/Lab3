@@ -13,9 +13,9 @@ json:
 <p>For Library</p>
 <p>To add a book (Post)</p>
 <p><b>http://localhost:8080/addbook</b></p>
-<p>
-### JSON:
-'''cmd
+
+JSON:
+'''
 {
   "title": "Sample Book",
   "author": "John Doe",
@@ -23,6 +23,6 @@ json:
   "publishedYear": 2023
 }
 '''
-</p>
+
 <p>Retreive a list of books (Get)</p>
 <p><b>http://localhost:8080/getbooks</b></p>
